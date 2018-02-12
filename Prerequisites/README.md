@@ -177,3 +177,11 @@ Here are a list of tutorials/good reads that I recommend to learn the command li
 - [Getting to Know the Command Line - davidbaumgold](https://www.davidbaumgold.com/tutorials/command-line/#command-syntax)
 - [Command Line Basics - teamtreehouse](http://blog.teamtreehouse.com/command-line-basics)
 - [Beginner's Guide to the Bash Terminal - joe collins - \(YouTube 1:14hr\)](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
+
+<br>
+<div>
+  <a href="#contents">:arrow_up: Back to Top</a>
+</div>
+<div>
+  <a href="../README.md#contents">:arrow_left: Back to Main Menu</a>
+</div>
