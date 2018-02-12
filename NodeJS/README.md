@@ -12,11 +12,11 @@ Lets start making your own NodeJS Apps!
   - [Install NVM](install-nvm)
   - [Install Node](install-node)
 - [3.3. NPM & Packages](npm-packages)
-  - [Concept of Packages]()
+  - [Concept of Packages](npm-packages)
 - [3.4. Initiating Project](#initiating-project)
-  - [npm init]()
-  - [git init]()
-- [3.5. Hello World App]()
+  - [npm init](#initiating-project)
+  - [git init](#initiating-project)
+- [3.5. Hello World App](#hello-world-app)
   - [app.js]()
   - [npm install ]()
   - [running application]()
@@ -125,7 +125,7 @@ Now Node has a very handy tool called *NPM* we can use in our terminal. So lets 
 npm init
 ```
 
-Now NPM will ask you a series of questions regarding your new app. For the purpose of this tutorial you can simple press *[ENTER]* for every question to use the default settings.
+Now NPM will ask you a series of questions regarding your new app. For the purpose of this tutorial you can simple press **[ENTER]** for every question to use the default settings.
 
 Now if you type `ls -l` in your directory you should have the following:
 
@@ -134,7 +134,7 @@ Now if you type `ls -l` in your directory you should have the following:
 app.js       package.json
 ```
 
-Lets take a look at the structure of a node application.
+Sweet! Now lets go over the structure of a node application.
 
 The structure of a nodejs application usually consists of the following:
 
@@ -147,6 +147,36 @@ The `App file` is where you write your code.
 The `Package file` is where you describe your application, and include all the other packages you wish to use
 
 The `node_modules` folder is where all the packages you use will be installed to.
+
+This is the very basic structure of every application. All Node apps require these 3 fundamental things.
+
+# Hello World App
+
+Alright alright alright.... lets make your firsy NodeJS app!
+
+Open up `app.js` using your editor of choice.
+
+Type in the following lines inside your file:
+
+``` javascript
+let today = new Date();
+
+console.log("Hello World! The date is: " + today);
+```
+> new Date() is a function built into node, it simply creates a "Date" object with todays date and time :) Simple enough.
+
+Save that file and go back to your terminal.
+
+Now type: 
+``` bash
+node app.js
+```
+
+You should see:
+
+<div>
+  <img src="./images/app-1.png" align="center" width"500px">
+</div>
 
 
 Lets see an example of how you can use someone elses Package inside of your package:
