@@ -5,10 +5,10 @@ Lets begin by setting the foundation for your future projects. We are going to s
 - [1.1. OS Bedrock](#11-os-bedrock)
   - [Windows](#windows)
   - [MacOS](#macos)
-  - [Linux ]()
+  - [Linux ](#linux)
 - [1.2 Command Line](#12-command-line)
-  - [Installing Dependencies]()
-  - [Fundamentals]()
+  - [Installing Dependencies](#installing-Dependencies)
+  - [Fundamentals](#fundamentals)
 
 # 1.1 OS Bedrock
 Lets get your operating system ready for development.
@@ -106,4 +106,48 @@ Using your Terminal type in:
 
 Click Agree to the license agreement. Wait for the Downloading software alert to finish, and click Done. You're good to go.
 
+# Linux
+
+Linux systems are usually ready for developers right out of the box. Skip ahead to [1.2 Command Line](#12-command-line) to install your dependencies.
+
 # 1.2 Command Line
+
+# Installing Dependencies
+> For Windows/Linux users only
+
+Depending on what Linux Distro you have, you have a package manager.
+
+Open up your Terminal or Bash(Windows)
+
+To install the Developer Dependencies please run the command that corresponds to your distro:
+
+## Ubuntu/Debian
+``` bash
+sudo apt-get update
+
+sudo apt-get install build-essential
+```
+
+## Fedora/CentOS/RHEL
+``` bash
+sudo yum update
+
+sudo yum groupinstall "Development Tools" "Legacy Software Development"
+```
+
+## Arch Linux
+``` bash
+sudo pacman -Sy base-devel
+```
+
+# Fundamentals
+>The command line is the ultimate seat of power on your computer. Using the command line, you can perform amazing feats of wizardry and speed, taming your computer and getting it to do precisely what you want. Unfortunately, the price of this power is complexity: nobody ever said that ruling your computer would be easy.
+>
+>The command line is, at its heart, simply a place where you type commands to the computer. The computer is your obedient servant, and will attempt to carry out any command that it understands. Unfortunately, the computer does not speak English, or any other language spoken by humans (although it has recognizable elements). In order to give it commands, we must first start learning the language of the computer.
+
+Its imperative that you as a developer become extremely familiar with your Command Line(Terminal). Your command line is your window into your entire computer. It is how you communicate with your computer and its just as important as your monitor and keyboard. Your command line is one of the best tools at your disposal and becoming efficient with it, will grant your superpower-like skills that will let you complete things much, much faster than any other way.
+
+Here are a list of tutorials/good reads that I recommend to learn the command line.
+
+These are in order of what I deem to be best on top:
+- [Getting to Know the Command Line - davidbaumgold](https://www.davidbaumgold.com/tutorials/command-line/#command-syntax)
