@@ -178,7 +178,7 @@ node app.js
 You should see:
 
 <div>
-  <img src="./images/app-1.png" align="center" width"300px">
+  <img src="./images/app-1.png" align="center" width="400px">
 </div>
 
 
@@ -194,12 +194,12 @@ Lets see an example of how you can use someone elses Package inside of your pack
 let today = new Date();
 let chalk = require('chalk'); // This is a package named Chalk created by a user. It lets you write messages in different colors.
 
-console.log(chalk.blue("Hello World! The date is: " + today));
+console.log(chalk.red("Hello World! The date is: " + today));
 
 ```
 > In this simple application we wrote our own app that uses a package from another user called "chalk".
 >
-> We simply are displaying the date and time in blue text..
+> We simply are displaying the date and time in red text..
 
 <br>
 
@@ -222,7 +222,7 @@ node app.js
 Once you learn to read errors, they becoming **incredibly** easy to fix!
 Lets read this first error:
 
-```
+``` bash
 Error: Cannot find module 'chalk'
     at Function.Module._resolveFilename (module.js:489:15)
     at Function.Module._load (module.js:439:25)
@@ -240,8 +240,30 @@ The most important line there is the very first line, every other line is just d
 
 `Error: Cannot find module 'chalk'` is actually quite easy to understand. Its telling us that we used the package "chalk" but it has aboslutely **_no_** idea what the heck chalk is.
 
-Awesome!
+Awesome! So lets segue into the package.json file and how we can tell Node what `chalk` is...
 
-But... the package "chalk", how does node know what "chalk" is and how to download the package.
+<div align="center">
+  <img src="./images/npm-logo.svg" width="300px"> 
+</div>
 
-Well, we have to add "chalk" to our application, and we do this
+The *NPM* tool we used to initiate our project is actually a central hub for all Node Packages. When someone creates a package and they want to share it, they submit it to NPM and then people can install those packages into their app.
+
+We want to install `chalk` so we can use it inside our app so all we have to do it type in our terminal:
+
+```
+   npm install --save chalk
+```
+
+Now *NPM* downloaded chalk and put it into a folder called `node_modules`
+
+So if were were to run our app again ..
+
+```
+node app.js
+```
+
+You should see:
+
+<div>
+  <img src="./images/app-2.png" align="center" width="400px">
+</div>
