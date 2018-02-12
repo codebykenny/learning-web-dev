@@ -163,8 +163,9 @@ let today = new Date();
 
 console.log("Hello World! The date is: " + today);
 ```
-  > new Date() is a function built into node, it simply creates a "Date" object with todays date and time :) Simple enough.
+> new Date() is a function built into node, it simply creates a "Date" object with todays date and time :) Simple enough.
 
+<br>
 Save that file and go back to your terminal.
 
 Now type: 
