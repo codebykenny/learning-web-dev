@@ -1,19 +1,19 @@
 # 1.1 Prerequisites
 Lets begin by setting the foundation for your future projects. We are going to set up the ideal enviroment for you to start developing in.
 
-## Contents 
+# Contents 
 - [1.1. OS Bedrock](#11-os-bedrock)
-  - [Windows]()
+  - [Windows](#windows)
   - [MacOS]()
   - [Linux ]()
 - [1.2 Command Line](#12-command-line)
   - [Installing Dependencies]()
   - [Fundamentals]()
 
-## 1.1 OS Bedrock
+# 1.1 OS Bedrock
 Lets get your operating system ready for development.
 
-### Windows
+## Windows
 > Windows 10 finally bridged the gap for developers and introduced a subfile system called "Linux on Windows" so you can finally use the Terminal/Bash on your Windows PC.
 > We are going to assume you are on the *latest* version of Windows 10.
 > (The guide for these steps can be found in it's entirety here: https://itsfoss.com/install-bash-on-windows/)
