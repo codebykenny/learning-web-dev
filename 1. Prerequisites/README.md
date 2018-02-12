@@ -13,12 +13,12 @@ Lets begin by setting the foundation for your future projects. We are going to s
 # 1.1 OS Bedrock
 Lets get your operating system ready for development.
 
-## Windows
+# Windows
 > Windows 10 finally bridged the gap for developers and introduced a subfile system called "Linux on Windows" so you can finally use the Terminal/Bash on your Windows PC.
 > We are going to assume you are on the *latest* version of Windows 10.
 > (The guide for these steps can be found in it's entirety here: https://itsfoss.com/install-bash-on-windows/)
 
-### Step 1: Enable “Windows Subsystem for Linux” feature
+## Step 1: Enable “Windows Subsystem for Linux” feature
 
 Go to Start menu and search for PowerShell. Run it as administrator:
 
@@ -36,7 +36,7 @@ You’ll be asked to confirm your choice. Use Y or press enter:
 
 Now you should be asked to reboot. Even if you are not asked to, you must restart your system.
 
-### Step 2: Download a Linux system from Windows store
+## Step 2: Download a Linux system from Windows store
 
 Once your system has rebooted, go to Windows Store and search for Linux.
 
@@ -50,7 +50,7 @@ Once you choose the distribution of your choice, you’ll see the option to inst
 
 <img src="https://i.imgur.com/R4xo7nF.jpg" width="400px">
 
-### Step 3: Run Linux inside Windows 10
+## Step 3: Run Linux inside Windows 10
 
 You are almost there. Once you have installed, it’s time to see how to access Bash in Windows 10.
 
@@ -64,7 +64,7 @@ Don’t worry, it’s just for the first run. Bash shell will be available for u
 
 Enjoy Linux inside Windows 10.
 
-### Done
+## Done
 
 For troubleshooting problems please see the bottom section of this guide: https://itsfoss.com/install-bash-on-windows/
 
