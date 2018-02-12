@@ -217,6 +217,8 @@ node app.js
 <p><b>Errors are your friends! Errors are _extremely_ useful in telling your what went wrong!</b></p>
 </div>
 
+<br>
+
 Once you learn to read errors, they becoming **incredibly** easy to fix!
 Lets read this first error:
 
