@@ -7,7 +7,7 @@ Lets begin by setting the foundation for your future projects. We are going to s
   - [MacOS](#macos)
   - [Linux ](#linux)
 - [1.2 Command Line](#12-command-line)
-  - [Installing Dependencies](#installing-Dependencies)
+  - [Installing Dependencies](#installing-dependencies-windowslinux-users-only)
   - [Fundamentals](#fundamentals)
 
 # 1.1 OS Bedrock
@@ -116,6 +116,8 @@ Go to the next section: [1.2 Command Line](#12-command-line)
 Linux systems are usually ready for developers right out of the box. Skip ahead to [1.2 Command Line](#12-command-line) to install your dependencies.
 
 # 1.2 Command Line
+
+This is what being a developers is all about.
 
 # Installing Dependencies (Windows/Linux Users Only)
 
