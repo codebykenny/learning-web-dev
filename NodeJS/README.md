@@ -3,9 +3,10 @@ Now that your enviroment is all set up and you know the command line fundamental
 
 # Contents 
 - [2.1. Javascript Guides]()
-  - [Basics]()
+  - [Basics](#basics)
   - [Intermediate]()
-  - [Style Guides]()
+  - [Editor](#editor)
+  - [Style Guides](#style-guides)
   - [ES2015/ES2016/ES2017...]()
 - [2.2. Installation & NVM]()
   - [Installing NVM]()
@@ -46,9 +47,7 @@ Being able to understand, read and write Javascript is a very rewarding skill to
 In it's core, Javascript is an object-oriented programming languages and very similar to other languages in the same category such as Python, Swift and Ruby. Javascript is the language while *Node.JS* is the enviroment that lets Javascript run on a server instead of a webbrowser. 
 
 ## Basics
-> It is important to differentiate between Javascript in the browser and Javascript in the server/command-line
-
-When learning Javascript it's very important to be aware of what types of tutorials you're so you do not get confused.
+If you understand Javascript and can read and write is comfortably, you may skip to the next section: [Style Guides](#style-guides)
 
 <br><div align="center">
     :star: *A VERY POWERFUL TOOL TO LEARN JAVASCRIPT IS THE JAVASCRIPT CONSOLE* :star:
@@ -68,8 +67,50 @@ On Mac: `Cmd + Option + J`.
 
 ---
 
-Its important to learn javascript basics such as variables, variable types, operations/operands and functions.
+Let's begin by learning the javascript basics such as variables, types, operations/operands and functions.
 
-[Mozilla has a great tutorial here!](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#Language_basics_crash_course)
-<br>[Mozilla has a great tutorial here!](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#Language_basics_crash_course)
-<br>[Mozilla has a great tutorial here!](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#Language_basics_crash_course)
+
+[Start by reading this introduction to javascript](https://autotelicum.github.io/Smooth-CoffeeScript/literate/js-intro.html#syntax-basics)
+
+## Intermediate
+
+## Editor
+
+Aside from your Terminal, the single best tool at your disposal for developing is your Editor!
+
+Having a modern editor will help you write code faster and more efficiently.
+
+Over the last couple of years there has been a lot of great editors, I strongly recommend `Microsoft VS Code` as it has provded to be a fast, efficient editor that has a crazy good development team making it better and better.
+
+Here is a list of editors starting with my favorites towards the top.
+
+- [Microsoft's VS Code](https://code.visualstudio.com/)
+- [GitHub's Atom](https://atom.io/)
+- [Sublime Text](https://www.sublimetext.com/)
+
+## Style Guides
+
+As you start to write your code, it's very easy to be inconsistent in the way you write it.
+
+Being aware of the format in which you write your code is quintessential to having readable and friendly code.
+
+Ultimately the style in which you want to write your code its entirely up to you, and does not matter much, however what _does_ matter is being consistant.
+
+Now that you know about Javascript and how to write it you should take a look at the following 2 stype guides
+
+## Standard Style Guide
+[StandardJS](https://github.com/standard/standard)
+## Airbnb Style Guide
+[Airbnb Style Guide](https://github.com/airbnb/javascript)
+
+## Style Guide Tools
+Now that you have decided on which style to go with, you can look for tools to help you enforce the style.
+
+Most modern editors have addons that help you enforce specific style guides.
+
+You can search for the addon directly in yoru editors package manager, for now I will list a link to the VS Code packages
+
+- [Standard](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs)
+- [ESLint (good for Airbnb style)](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [JSHint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
