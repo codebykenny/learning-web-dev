@@ -68,7 +68,9 @@ Enjoy Linux inside Windows 10.
 
 ## Done
 
-For troubleshooting problems please see the bottom section of this guide: https://itsfoss.com/install-bash-on-windows/
+For troubleshooting problems please see the bottom section of this guide: https://itsfoss.com/install-bash-on-windows/.
+
+Go to the next section: [1.2 Command Line](#12-command-line)
 
 # MacOS
 
@@ -105,6 +107,9 @@ Using your Terminal type in:
 <img src="https://i.imgur.com/7jvR1dp.jpg" width="500px">
 
 Click Agree to the license agreement. Wait for the Downloading software alert to finish, and click Done. You're good to go.
+
+## Done
+Go to the next section: [1.2 Command Line](#12-command-line)
 
 # Linux
 
