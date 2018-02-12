@@ -11,12 +11,10 @@ Lets begin by setting the foundation for your future projects. We are going to s
   - [Fundamentals](#fundamentals)
 
 # 1.1 OS Bedrock
+<sup><a href="#----">↥ back to top</a></sup>
 Lets get your operating system ready for development.
 
-
 # Windows
-<sup><a href="#----">↥ back to top</a></sup>
-
 
 > Windows 10 finally bridged the gap for developers and introduced a subfile system called "Linux on Windows" so you can finally use the Terminal/Bash on your Windows PC.
 >
@@ -120,7 +118,7 @@ Go to the next section: [1.2 Command Line](#12-command-line)
 Linux systems are usually ready for developers right out of the box. Skip ahead to [1.2 Command Line](#12-command-line) to install your dependencies.
 
 # 1.2 Command Line
-
+<sup><a href="#----">↥ back to top</a></sup>
 This is what being a developers is all about.
 
 # Installing Dependencies (Windows/Linux Users Only)
