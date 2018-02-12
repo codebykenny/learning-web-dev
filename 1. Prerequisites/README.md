@@ -11,7 +11,7 @@ Lets begin by setting the foundation for your future projects. We are going to s
   - [Fundamentals](#fundamentals)
 
 # 1.1 OS Bedrock
-<sup><a href="#----">↥ back to top</a></sup>
+<sup><a href="#top">↥ back to top</a></sup>
 Lets get your operating system ready for development.
 
 # Windows
@@ -119,7 +119,7 @@ Linux systems are usually ready for developers right out of the box. Skip ahead 
 
 # 1.2 Command Line
 <div align="left">
-<sup><a href="#----">↥ back to top</a></sup>
+<sup><a href="#top">↥ back to top</a></sup>
 <div>
 This is what being a developers is all about.
 
