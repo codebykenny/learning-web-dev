@@ -182,6 +182,8 @@ You should see:
   <blockquote>Nice! You just ran your very first node application and it did something useful, it told you the current date and time.</blockquote>
 </div>
 
+<br>
+
 ## NPM Install
 
 So remember how we said a node app is simply a package compromised of other packages?
