@@ -16,7 +16,7 @@ This guide is intended for people who have very little experience with Node proj
   - [2.1. Javascript Guides]()
     - [Basics]()
     - [Intermediate]()
-    - [iStyle Guides]()
+    - [Style Guides]()
     - [ES2015/ES2016/ES2017...]()
   - [2.2. Installation & NVM]()
     - [Installing NVM]()
