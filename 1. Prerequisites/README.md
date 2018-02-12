@@ -15,7 +15,9 @@ Lets get your operating system ready for development.
 
 # Windows
 > Windows 10 finally bridged the gap for developers and introduced a subfile system called "Linux on Windows" so you can finally use the Terminal/Bash on your Windows PC.
+>
 > We are going to assume you are on the *latest* version of Windows 10.
+>
 > (The guide for these steps can be found in it's entirety here: https://itsfoss.com/install-bash-on-windows/)
 
 ## Step 1: Enable “Windows Subsystem for Linux” feature
