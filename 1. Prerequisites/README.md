@@ -117,8 +117,7 @@ Linux systems are usually ready for developers right out of the box. Skip ahead 
 
 # 1.2 Command Line
 
-# Installing Dependencies
-## For Windows/Linux users only
+# Installing Dependencies (For Windows/Linux users only)
 
 Depending on what Linux Distro you have, you have a package manager.
 
