@@ -1,6 +1,7 @@
 # Javascript
 Now that your enviroment is all set up and you know the command line fundamentals, we can begin to learn how to code!
 
+<br>
 <div>
   <a href="../README.md">:arrow_left: Back to Main Menu</a>
 </div>

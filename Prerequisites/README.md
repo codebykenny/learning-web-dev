@@ -1,6 +1,11 @@
 # 1.1 Prerequisites
 Lets begin by setting the foundation for your future projects. We are going to set up the ideal enviroment for you to start developing in.
 
+<br>
+<div>
+  <a href="../README.md">:arrow_left: Back to Main Menu</a>
+</div>
+
 # Contents 
 - [1.1. OS Bedrock](#11-os-bedrock)
   - [Windows](#windows)
