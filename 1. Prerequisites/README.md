@@ -15,8 +15,8 @@ Lets get your operating system ready for development.
 
 # Windows
 <br/>
-<div align="right">
-    <b><a href="#----">↥ back to top</a></b>
+<div align="left">
+    <b><a style="font-size: 10px" href="#----">↥ back to top</a></b>
 </div>
 <br/>
 > Windows 10 finally bridged the gap for developers and introduced a subfile system called "Linux on Windows" so you can finally use the Terminal/Bash on your Windows PC.
