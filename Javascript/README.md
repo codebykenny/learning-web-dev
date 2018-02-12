@@ -6,10 +6,13 @@ Now that your enviroment is all set up and you know the command line fundamental
 - [2.2 Intermediate]()
 - [2.3 Editor](#editor)
 - [2.4 Style Guides](#style-guides)
+  - [Standard]()
+  - [Airbnb]()
+  - [Style Guide Tools]()
 - [2.5 ES2015/ES2016/ES2017...]()
 
 
-# Javascript Guides
+# Javascript
 <img src="./images/top-languages.png" width="500px" align="right">
 
 Javascript is one of the worlds most popular programming languages, and the shear number of developers Javascript effects is astonishing.
@@ -18,8 +21,8 @@ Being able to understand, read and write Javascript is a very rewarding skill to
 
 In it's core, Javascript is an object-oriented programming languages and very similar to other languages in the same category such as Python, Swift and Ruby. Javascript is the language while *Node.JS* is the enviroment that lets Javascript run on a server instead of a webbrowser. 
 
-## Basics
-If you understand Javascript and can read and write is comfortably, you may skip to the next section: [Style Guides](#style-guides)
+# Basics
+If you understand Javascript and can read and write it comfortably, you may skip to the next section: [Editor](#editor)
 
 <br><div align="center">
     :star: *A VERY POWERFUL TOOL TO LEARN JAVASCRIPT IS THE JAVASCRIPT CONSOLE* :star:
@@ -44,9 +47,11 @@ Let's begin by learning the javascript basics such as variables, types, operatio
 
 [Start by reading this introduction to javascript](https://autotelicum.github.io/Smooth-CoffeeScript/literate/js-intro.html#syntax-basics)
 
-## Intermediate
+# Intermediate
 
-## Editor
+# Editor
+
+<img src="./images/editor.png" align="right" width="500px">
 
 Aside from your Terminal, the single best tool at your disposal for developing is your Editor!
 
@@ -60,7 +65,7 @@ Here is a list of editors starting with my favorites towards the top.
 - [GitHub's Atom](https://atom.io/)
 - [Sublime Text](https://www.sublimetext.com/)
 
-## Style Guides
+# Style Guides
 
 As you start to write your code, it's very easy to be inconsistent in the way you write it.
 
@@ -70,13 +75,14 @@ Ultimately the style in which you want to write your code its entirely up to you
 
 Now that you know about Javascript and how to write it you should take a look at the following 2 stype guides
 
-### Standard Style Guide
+## Standard Style Guide
 [StandardJS](https://github.com/standard/standard)
-### Airbnb Style Guide
+
+## Airbnb Style Guide
 [Airbnb Style Guide](https://github.com/airbnb/javascript)
 
 ## Style Guide Tools
-Now that you have decided on which style to go with, you can look for tools to help you enforce the style.
+After you have decided on which style to go with, you can look for tools to help you enforce the style.
 
 Most modern editors have addons that help you enforce specific style guides.
 
