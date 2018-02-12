@@ -123,7 +123,7 @@ Using your Terminal type in:
 Click Agree to the license agreement. Wait for the Downloading software alert to finish, and click Done. You're good to go.
 
 ## Done
-:white_check_mark: Done! Go to the next section: [1.2 Command Line](#12-command-line)
+:white_check_mark: Done! Go to the next section: [1.2 Fundamentals](#fundamentals)
 
 # Linux
 
