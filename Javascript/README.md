@@ -51,7 +51,7 @@ Let's begin by learning the javascript basics such as variables, types, operatio
 
 # Editor
 
-<img src="./images/editor.png" align="right" width="500px">
+<img src="./images/editor.png" alt="Microsoft VS Code" align="right" width="500px">
 
 Aside from your Terminal, the single best tool at your disposal for developing is your Editor!
 
@@ -71,15 +71,27 @@ As you start to write your code, it's very easy to be inconsistent in the way yo
 
 Being aware of the format in which you write your code is quintessential to having readable and friendly code.
 
-Ultimately the style in which you want to write your code its entirely up to you, and does not matter much, however what _does_ matter is being consistant.
+Ultimately the style in which you want to write your code its entirely up to you, however what _does_ matter is being consistant.
 
-Now that you know about Javascript and how to write it you should take a look at the following 2 stype guides
+Style guides cover:
+- Simicolons, Commas, Whitespaces
+- Tabs vs Spaces (Also # of spaces)
+- Arrow Functions
+- Comments
+- Spaces around functions & arguments
+- Newline characters
+- Declaration of variables
+- Global variables
+- Objects
 
-## Standard Style Guide
+Take a look at these style guides and learn the proper way of writing your Javascript. At the moment there are 2 very popular style guides:
+
+### Standard Style Guide
 [StandardJS](https://github.com/standard/standard)
 
-## Airbnb Style Guide
+### Airbnb Style Guide
 [Airbnb Style Guide](https://github.com/airbnb/javascript)
+
 
 ## Style Guide Tools
 After you have decided on which style to go with, you can look for tools to help you enforce the style.
