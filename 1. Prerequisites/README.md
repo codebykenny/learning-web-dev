@@ -60,7 +60,7 @@ Just search for the Linux distribution you installed in the previous step. In my
 
 It will take some time in installing and then you’ll have to set up the username and password.
 
-<img src="https://i.imgur.com/68KfOKq.jpg" width="500px">
+<img src="https://i.imgur.com/68KfOKq.jpg" align="right" width="500px">
 
 Don’t worry, it’s just for the first run. Bash shell will be available for use directly from the next time onwards.
 
