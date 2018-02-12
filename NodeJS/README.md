@@ -118,10 +118,10 @@ Lets create an application file:
 
 Now Node has a very handy tool called *NPM* we can use in our terminal. So lets run the following:
 
+> NPM will ask you a series of questions regarding your new app. For the purpose of this tutorial you can simple press **[ENTER]** for every question to use the default settings.
 ``` bash
 npm init
 ```
-> Now NPM will ask you a series of questions regarding your new app. For the purpose of this tutorial you can simple press **[ENTER]** for every question to use the default settings.
 
 Now if you type `ls -l` in your directory you should have the following:
 
