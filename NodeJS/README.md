@@ -86,7 +86,7 @@ We should now have a working copy of Node on our system and can proceed to learn
 
 Every NodeJS application is considered a "package". All of them. Regardless of what type of app it is, it's a package.
 
-The beautiful world of NodeJS is there are thousands and thousands of open-sourced packages that you can simply add to your application. Everytime someone in the world creates a piece of code that can be used for something, they can package it up and share it with the world. So at your fingertips you have all these packages you can use to accomplish just about anything.
+The beauty of NodeJS is: there are thousands and thousands of open-sourced packages that you can simply add to your application. Everytime someone in the world creates a piece of code that can be used for something, they can package it up and share it with the world. So at your fingertips you have all these packages you can use to accomplish just about anything.
 
 When you write your very own NodeJS application, 100% of the time you will use packages from other users all over the world. All the *hard* parts of coding, have usually already been taken care of by other users and you can simply add a package to your application to take advantage of that.
 
