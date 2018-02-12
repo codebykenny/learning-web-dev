@@ -128,7 +128,7 @@ Linux systems are usually ready for developers right out of the box. Skip ahead 
 <div align="left">
 <sup><a href="#top">↥ back to top</a></sup>
 <div><br>
-This is what being a developers is all about.
+Let's finish up on the command line.
 
 # Installing Dependencies (Windows/Linux Users Only)
 
@@ -158,6 +158,9 @@ sudo pacman -Sy base-devel
 ```
 
 # Fundamentals
+<p align="center">
+  <img src="./images/hyper.png" width="500px">
+</P>
 >The command line is the ultimate seat of power on your computer. Using the command line, you can perform amazing feats of wizardry and speed, taming your computer and getting it to do precisely what you want. Unfortunately, the price of this power is complexity: nobody ever said that ruling your computer would be easy.
 >
 >The command line is, at its heart, simply a place where you type commands to the computer. The computer is your obedient servant, and will attempt to carry out any command that it understands. Unfortunately, the computer does not speak English, or any other language spoken by humans (although it has recognizable elements). In order to give it commands, we must first start learning the language of the computer.
