@@ -15,9 +15,11 @@ In it's core, Javascript is an object-oriented programming languages and very si
 
 When learning Javascript it's very important to be aware of what types of tutorials you're so you do not get confused.
 
-<div align="center">
+<br><div align="center">
     :star: *A VERY POWERFUL TOOL TO LEARN JAVASCRIPT IS THE JAVASCRIPT CONSOLE* :star:
-</div>
+</div><br>
+
+---
 
 <img src="./images/console.png" width="500px" align="right">
 
