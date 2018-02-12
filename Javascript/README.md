@@ -2,7 +2,7 @@
 Now that your enviroment is all set up and you know the command line fundamentals, we can begin to learn how to code!
 
 <div>
-  <a href="../">:arrow_left: Back to Main Menu</a>
+  <a href="../README.md">:arrow_left: Back to Main Menu</a>
 </div>
 
 # Contents 
