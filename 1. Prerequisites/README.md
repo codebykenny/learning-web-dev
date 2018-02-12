@@ -14,7 +14,7 @@ Lets begin by setting the foundation for your future projects. We are going to s
 Lets get your operating system ready for development.
 
 <div align="right">
-    <b><a href="#----">:arrow_up: back to top</a></b>
+  <sup><a href="#----">:arrow_up: back to top</a></sup>
 </div>
 
 # Windows
