@@ -5,7 +5,7 @@ This guide is intended for people who have very little experience with Node proj
 
 ## Contents
 - [1. Prerequisites](./Prerequisites)
-  - [1.1. OS Bedrock]()
+  - [1.1. OS Bedrock](./Prerequisites#11-os-bedrock)
     - [Windows]()
     - [MacOS]()
     - [Linux ]()

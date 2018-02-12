@@ -162,3 +162,5 @@ Its imperative that you as a developer become extremely familiar with your Comma
 
 Here are a list of tutorials/good reads that I recommend to learn the command line, these are in order of what I deem to be best on top:
 - [Getting to Know the Command Line - davidbaumgold](https://www.davidbaumgold.com/tutorials/command-line/#command-syntax)
+- [Command Line Basics - teamtreehouse](http://blog.teamtreehouse.com/command-line-basics)
+- [Beginner's Guide to the Bash Terminal - joe collins - \(YouTube 1:14hr\)](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
