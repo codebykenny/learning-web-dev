@@ -57,7 +57,7 @@ Let's begin by learning the javascript basics such as variables, types, operatio
 </div>
 
 # Intermediate
-
+  > TODO
 # Editor
 
 <img src="./images/editor.png" alt="Microsoft VS Code" align="right" width="500px">

@@ -98,7 +98,7 @@ Open this up and save it to your Dock to begin setting things up.
 
 <img src="./images/brew.png" width="100px">
 
-Brew is a package manager for MacOs. It lets you install tools and utilies with simple commands and its quintessential.
+Brew is a package manager for MacOS. It lets you install tools and utilities with simple commands and its quintessential to developing on Mac.
 
 In your terminal type the following to install Brew:
 
@@ -106,7 +106,7 @@ In your terminal type the following to install Brew:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Done!
+:white_check_mark: Done!
 
 ## Git + Developer Tools
 
@@ -123,7 +123,7 @@ Using your Terminal type in:
 Click Agree to the license agreement. Wait for the Downloading software alert to finish, and click Done. You're good to go.
 
 ## Done
-Go to the next section: [1.2 Command Line](#12-command-line)
+:white_check_mark: Done! Go to the next section: [1.2 Command Line](#12-command-line)
 
 # Linux
 
