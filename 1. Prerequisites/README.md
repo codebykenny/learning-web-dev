@@ -78,7 +78,7 @@ Setting up your Mac for development is rather simple and you just need to instal
 
 Your terminal is going to be your new best friend. You can find your Terminal in your Applications/Utilities folder.
 
-Open this up and save it to your Dock to begin settings things up.
+Open this up and save it to your Dock to begin setting things up.
 
 ## Brew
 
@@ -102,7 +102,7 @@ Using your Terminal type in:
   git --version
 ```
 
-<imr src="https://i.imgur.com/7jvR1dp.jpg" width="500px">
+<img src="https://i.imgur.com/7jvR1dp.jpg" width="500px">
 
 Click Agree to the license agreement. Wait for the Downloading software alert to finish, and click Done. You're good to go.
 
