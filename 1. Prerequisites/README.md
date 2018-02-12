@@ -24,7 +24,7 @@ Lets get your operating system ready for development.
 
 Go to Start menu and search for PowerShell. Run it as administrator:
 
-<img src="https://i.imgur.com/0zV9okU.jpg" width="400px">
+<img src="https://i.imgur.com/0zV9okU.jpg" width="500px">
 
 Once you have the PowerShell running, use the command below to enable Bash in Windows 10.
 
@@ -34,7 +34,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 You’ll be asked to confirm your choice. Use Y or press enter:
 
-<img src="https://i.imgur.com/C2g968L.jpg" width="400px">
+<img src="https://i.imgur.com/C2g968L.jpg" width="500px">
 
 Now you should be asked to reboot. Even if you are not asked to, you must restart your system.
 
@@ -42,15 +42,15 @@ Now you should be asked to reboot. Even if you are not asked to, you must restar
 
 Once your system has rebooted, go to Windows Store and search for Linux.
 
-<img src="https://i.imgur.com/WhrznRH.jpg" width="400px">
+<img src="https://i.imgur.com/WhrznRH.jpg" width="500px">
 
 You’ll see the option to install Ubuntu or SUSE. I have installed Ubuntu for Bash on Windows here
 
-<img src="https://i.imgur.com/3B1ZMJc.jpg" width="400px">
+<img src="https://i.imgur.com/3B1ZMJc.jpg" width="500px">
 
 Once you choose the distribution of your choice, you’ll see the option to install it. Do note that it will download files of around 1Gb in size. So you should have a good internet connection here.
 
-<img src="https://i.imgur.com/R4xo7nF.jpg" width="400px">
+<img src="https://i.imgur.com/R4xo7nF.jpg" width="500px">
 
 ## Step 3: Run Linux inside Windows 10
 
@@ -60,7 +60,7 @@ Just search for the Linux distribution you installed in the previous step. In my
 
 It will take some time in installing and then you’ll have to set up the username and password.
 
-<img src="https://i.imgur.com/68KfOKq.jpg" width="400px">
+<img src="https://i.imgur.com/68KfOKq.jpg" width="500px">
 
 Don’t worry, it’s just for the first run. Bash shell will be available for use directly from the next time onwards.
 
