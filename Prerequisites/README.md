@@ -83,11 +83,15 @@ Setting up your Mac for development is rather simple and you just need to instal
 
 ## Terminal
 
+<img src="./images/terminal.png" width="100px">
+
 Your terminal is going to be your new best friend. You can find your Terminal in your Applications/Utilities folder.
 
 Open this up and save it to your Dock to begin setting things up.
 
 ## Brew
+
+<img src="./images/brew.png" width="100px">
 
 Brew is a package manager for MacOs. It lets you install tools and utilies with simple commands and its quintessential.
 

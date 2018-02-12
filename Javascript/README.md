@@ -45,7 +45,11 @@ On Mac: `Cmd + Option + J`.
 Let's begin by learning the javascript basics such as variables, types, operations/operands and functions.
 
 
-[Start by reading this introduction to javascript](https://autotelicum.github.io/Smooth-CoffeeScript/literate/js-intro.html#syntax-basics)
+<div align="center">
+  <h2>
+    <a href="https://autotelicum.github.io/Smooth-CoffeeScript/literate/js-intro.html#syntax-basics">Start by reading this introduction to javascript!</a>
+  </h2>
+</div>
 
 # Intermediate
 
