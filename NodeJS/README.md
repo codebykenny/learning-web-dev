@@ -212,9 +212,9 @@ node app.js
 <br>
 
 <div align="center">
-<p>*:boom:Boom!:boom:* :rotating_light:Your first NodeJS Error!:rotating_light: </p>
+<p><b>:boom:Boom!:boom:</b> :rotating_light:Your first NodeJS Error!:rotating_light: </p>
 <p>At first it may seem that errors are your sworn enemy. But they're not!</p>
-<p>**Errors are your friends! Errors are _extremely_ useful in telling your what went wrong!**</p>
+<p><b>Errors are your friends! Errors are _extremely_ useful in telling your what went wrong!</b></p>
 </div>
 
 Once you learn to read errors, they becoming **incredibly** easy to fix!
