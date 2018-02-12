@@ -177,8 +177,8 @@ node app.js
 
 You should see:
 
-<div>
-  <img src="./images/app-1.png" align="center" width="400px">
+<div align="center">
+  <img src="./images/app-1.png" width="600px">
 </div>
 
 
@@ -264,6 +264,6 @@ node app.js
 
 You should see:
 
-<div>
-  <img src="./images/app-2.png" align="center" width="400px">
+<div align="center">
+  <img src="./images/app-2.png" width="600px">
 </div>
