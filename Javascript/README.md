@@ -83,7 +83,7 @@ Here is a list of editors starting with my favorites towards the top.
 
 As you start to write your code, it's very easy to be inconsistent in the way you write it.
 
-Being aware of the format in which you write your code is quintessential to having readable and friendly code.
+Being aware of the format in which you write your code is important to having readable and friendly code.
 
 Ultimately the style in which you want to write your code its entirely up to you, however what _does_ matter is being consistant.
 
