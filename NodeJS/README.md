@@ -270,6 +270,5 @@ You should see:
 
 <div align="center">
   <img src="./images/app-2.png" width="600px">
-  > Nice! We got the red letters! :sunglasses:
+  <blockquote>Nice! We got the red letters! :sunglasses:</blockquote>
 </div>
-> Nice! We got the red letters! :sunglasses:
