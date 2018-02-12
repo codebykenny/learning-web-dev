@@ -242,9 +242,13 @@ The most important line there is the very first line, every other line is just d
 
 Awesome! So lets segue into the package.json file and how we can tell Node what `chalk` is...
 
+<br>
+
 <div align="center">
   <img src="./images/npm-logo.svg" width="300px"> 
 </div>
+
+<br>
 
 The *NPM* tool we used to initiate our project is actually a central hub for all Node Packages. When someone creates a package and they want to share it, they submit it to NPM and then people can install those packages into their app.
 
@@ -267,3 +271,4 @@ You should see:
 <div align="center">
   <img src="./images/app-2.png" width="600px">
 </div>
+> Nice! We got the red letters! :cool:
