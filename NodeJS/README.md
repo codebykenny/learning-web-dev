@@ -154,6 +154,8 @@ This is the very basic structure of every application. All Node apps require the
 
 Alright alright alright.... lets make your firsy NodeJS app!
 
+<br>
+
 Open up `app.js` using your editor of choice.
 
 Type in the following lines inside your file:
