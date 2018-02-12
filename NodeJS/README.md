@@ -178,7 +178,7 @@ node app.js
 You should see:
 
 <div>
-  <img src="./images/app-1.png" align="center" width"400px">
+  <img src="./images/app-1.png" align="center" width"300px">
 </div>
 
 
@@ -199,7 +199,7 @@ console.log(chalk.blue("Hello World! The date is: " + today));
 ```
 > In this simple application we wrote our own app that uses a package from another user called "chalk".
 >
-> We simply displayed a blue message that says "Hello World"
+> We simply are displaying the date and time in blue text..
 
 Now lets run it again:
 
@@ -207,12 +207,11 @@ Now lets run it again:
 node app.js
 ```
 
-Boom! Your first NodeJS Error! At first it may seem that errors are your sworn enemy. But they're not!
+*:boom: Boom!* Your first NodeJS Error! At first it may seem that errors are your sworn enemy. But they're not!
 
 **Errors are your friends! Errors are _extremely_ useful in telling your what went wrong!**
 
 Once you learn to read errors, they becoming **incredibly** easy to fix!
-
 Lets read this first error:
 
 ```
