@@ -207,7 +207,7 @@ Now lets run it again:
 node app.js
 ```
 
-*:boom: Boom!* Your first NodeJS Error! At first it may seem that errors are your sworn enemy. But they're not!
+*:boom:Boom!:boom:* :rotating_light:Your first NodeJS Error!:rotating_light: At first it may seem that errors are your sworn enemy. But they're not!
 
 **Errors are your friends! Errors are _extremely_ useful in telling your what went wrong!**
 
