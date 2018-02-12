@@ -56,6 +56,11 @@ Let's begin by learning the javascript basics such as variables, types, operatio
   </h2>
 </div>
 
+Other Javascript tutorials:
+- [JS For Cats](http://jsforcats.com/#basics)
+- [codeacademy](https://www.codecademy.com/)
+- [learn-js](http://www.learn-js.org/en/Welcome)
+
 # Intermediate
   > TODO
 # Editor
