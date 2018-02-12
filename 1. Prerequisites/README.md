@@ -5,8 +5,10 @@
   - [Windows]()
   - [MacOS]()
   - [Linux ]()
-- [1.2 Command Line]()
+- [1.2 Command Line](#command-line)
   - [Installing Dependencies]()
   - [Fundamentals]()
 
 ### 1.1 OS Bedrock
+
+### 1.2 Command Line
