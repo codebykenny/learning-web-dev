@@ -4,7 +4,7 @@ Lets begin by setting the foundation for your future projects. We are going to s
 # Contents 
 - [1.1. OS Bedrock](#11-os-bedrock)
   - [Windows](#windows)
-  - [MacOS]()
+  - [MacOS](#macos)
   - [Linux ]()
 - [1.2 Command Line](#12-command-line)
   - [Installing Dependencies]()
@@ -28,7 +28,7 @@ Go to Start menu and search for PowerShell. Run it as administrator:
 
 Once you have the PowerShell running, use the command below to enable Bash in Windows 10.
 
-```
+``` powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
@@ -69,5 +69,41 @@ Enjoy Linux inside Windows 10.
 ## Done
 
 For troubleshooting problems please see the bottom section of this guide: https://itsfoss.com/install-bash-on-windows/
+
+# MacOS
+
+Setting up your Mac for development is rather simple and you just need to install a few tools.
+
+## Terminal
+
+Your terminal is going to be your new best friend. You can find your Terminal in your Applications/Utilities folder.
+
+Open this up and save it to your Dock to begin settings things up.
+
+## Brew
+
+Brew is a package manager for MacOs. It lets you install tools and utilies with simple commands and its quintessential.
+
+In your terminal type the following to install Brew:
+
+``` bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Done!
+
+## Git + Developer Tools
+
+We need to install a suite of developer tools on your mac.
+
+Using your Terminal type in:
+
+``` bash
+  git --version
+```
+
+<imr src="https://i.imgur.com/7jvR1dp.jpg" width="500px">
+
+Click Agree to the license agreement. Wait for the Downloading software alert to finish, and click Done. You're good to go.
 
 # 1.2 Command Line
