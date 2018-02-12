@@ -17,19 +17,7 @@ Lets start making your own NodeJS Apps!
 - [3.4. Hello World App](#hello-world-app)
   - [app.js](#appjs)
   - [npm install ](#npm-install)
-  - [npm scripts]()
-- [3.5. Web App]()
-  - [Requests & Responses]()
-  - [Router]()
-  - [Middleware]()
-  - [Controllers]()
-  - [Components]()
-  - [Views]()
-  - [Static Files]()
-  - [Headers & Cookies]()
-  - [Database]()
-  - [GZip Compression & Optimizations]()
-  - [SSL & Security]()
+  - [package.json](#packagejson)
 
 # Installing Node & NVM
 
@@ -273,6 +261,54 @@ You should see:
   <blockquote>Nice! We got the red letters! :sunglasses:</blockquote>
 </div>
 
+# Package.json
+
+So far we have: 
+  1. Initiated our first NPM Package
+  2. Wrote our very first simple node application.
+  3. Included another package from another user and used it
+
+These are all the essential aspects of a Node application, except for one.
+
+When we initiated this NPM package it created a `package.json` file for us. 
+
+To wrap up understanding how a package works we need to take a look inside, so lets open the `package.json` file in your editor.
+
+``` json
+{
+  "name": "first-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.1"
+  }
+}
+```
+
+This file is essentially a wireframe of your package/app. We have all the basic information such as name, version, description etc..
+
+We also have the very important `dependencies` section. Here we include all of the packages our application depends on. As you can see when we ran `npm install --save chalk` we intalled chalk in the `node_modules` folder and the `--save` flag included `"chalk": "^2.3.1"` in our package.json file.
+
+Now every time we run `npm install` it will automatically install all of the packages in the `dependencies` section of this file.
+
+Another important part of this file is the `scripts` section. This is really useful later on when you want to run different scripts in this repository.
+
+# Wrap up
+
+Now you understand the fundamental aspects of a NodeJS application.
+
+Keypoints:
+- Node Version Manager helps us install different versions of node
+- A NodeJS Application is simply a package defined in the `package.json` file.
+- You have a single point of entry usually `app.js`, `server.js` or `index.js` in which you write your code.
+- The beauty of NodeJS is NPM and being able to include packages created by other users inside our own package.
+
 <br>
 <div>
   <a href="#contents">:arrow_up: Back to Top</a>
@@ -281,3 +317,4 @@ You should see:
 <div>
   <a href="../README.md#contents">:arrow_left: Back to Main Menu</a>
 </div>
+
