@@ -269,3 +269,12 @@ You should see:
   <img src="./images/app-2.png" width="600px">
   <blockquote>Nice! We got the red letters! :sunglasses:</blockquote>
 </div>
+
+<br>
+<div>
+  <a href="#contents">:arrow_up: Back to Top</a>
+</div>
+<br>
+<div>
+  <a href="../README.md#contents">:arrow_left: Back to Main Menu</a>
+</div>

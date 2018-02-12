@@ -182,6 +182,7 @@ Here are a list of tutorials/good reads that I recommend to learn the command li
 <div>
   <a href="#contents">:arrow_up: Back to Top</a>
 </div>
+<br>
 <div>
   <a href="../README.md#contents">:arrow_left: Back to Main Menu</a>
 </div>
