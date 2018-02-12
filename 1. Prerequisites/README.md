@@ -118,7 +118,9 @@ Go to the next section: [1.2 Command Line](#12-command-line)
 Linux systems are usually ready for developers right out of the box. Skip ahead to [1.2 Command Line](#12-command-line) to install your dependencies.
 
 # 1.2 Command Line
+<div align="left">
 <sup><a href="#----">↥ back to top</a></sup>
+<div>
 This is what being a developers is all about.
 
 # Installing Dependencies (Windows/Linux Users Only)
