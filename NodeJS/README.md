@@ -179,10 +179,8 @@ You should see:
 
 <div align="center">
   <img src="./images/app-1.png" width="600px">
+  <blockquote>Nice! You just ran your very first node application and it did something useful, it told you the current date and time.</blockquote>
 </div>
-
-
-Nice! You just ran your very first node application and it did something useful, it told you the current date and time.
 
 ## NPM Install
 
