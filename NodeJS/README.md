@@ -201,15 +201,21 @@ console.log(chalk.blue("Hello World! The date is: " + today));
 >
 > We simply are displaying the date and time in blue text..
 
+<br>
+
 Now lets run it again:
 
 ```
 node app.js
 ```
 
-*:boom:Boom!:boom:* :rotating_light:Your first NodeJS Error!:rotating_light: At first it may seem that errors are your sworn enemy. But they're not!
+<br>
 
-**Errors are your friends! Errors are _extremely_ useful in telling your what went wrong!**
+<div align="center">
+<p>*:boom:Boom!:boom:* :rotating_light:Your first NodeJS Error!:rotating_light: </p>
+<p>At first it may seem that errors are your sworn enemy. But they're not!</p>
+<p>**Errors are your friends! Errors are _extremely_ useful in telling your what went wrong!**</p>
+</div>
 
 Once you learn to read errors, they becoming **incredibly** easy to fix!
 Lets read this first error:
