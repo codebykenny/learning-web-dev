@@ -1,41 +1,13 @@
-# NodeJS
+# Javascript Guides
 Now that your enviroment is all set up and you know the command line fundamentals, we can begin to learn how to code!
 
 # Contents 
-- [2.1. Javascript Guides]()
-  - [Basics](#basics)
-  - [Intermediate]()
-  - [Editor](#editor)
-  - [Style Guides](#style-guides)
-  - [ES2015/ES2016/ES2017...]()
-- [2.2. Installation & NVM]()
-  - [Installing NVM]()
-  - [Installing Node]()
-- [2.3. NPM & Packages]()
-  - [Concept of Packages]()
-  - [package.json]()
-  - [node_modules]()
-  - [npmjs.com & github packages]()
-- [2.4. Initiating Project]()
-  - [npm init]()
-  - [git init]()
-- [2.5. Hello World App]()
-  - [app.js]()
-  - [npm install ]()
-  - [running application]()
-  - [npm scripts]()
-- [2.6. Web App]()
-  - [Requests & Responses]()
-  - [Router]()
-  - [Middleware]()
-  - [Controllers]()
-  - [Components]()
-  - [Views]()
-  - [Static Files]()
-  - [Headers & Cookies]()
-  - [Database]()
-  - [GZip Compression & Optimizations]()
-  - [SSL & Security]()
+- [2.1 Basics](#basics)
+- [2.2 Intermediate]()
+- [2.3 Editor](#editor)
+- [2.4 Style Guides](#style-guides)
+- [2.5 ES2015/ES2016/ES2017...]()
+
 
 # Javascript Guides
 <img src="./images/top-languages.png" width="500px" align="right">
@@ -98,9 +70,9 @@ Ultimately the style in which you want to write your code its entirely up to you
 
 Now that you know about Javascript and how to write it you should take a look at the following 2 stype guides
 
-## Standard Style Guide
+### Standard Style Guide
 [StandardJS](https://github.com/standard/standard)
-## Airbnb Style Guide
+### Airbnb Style Guide
 [Airbnb Style Guide](https://github.com/airbnb/javascript)
 
 ## Style Guide Tools
