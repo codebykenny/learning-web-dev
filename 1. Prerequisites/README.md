@@ -11,4 +11,4 @@
 
 ### 1.1 OS Bedrock
 
-### 1.2 Command Line
+### Command Line
