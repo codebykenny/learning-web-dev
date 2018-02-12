@@ -4,7 +4,7 @@ This is an opinionated approach to learning how to get started with NodeJS and W
 This guide is intended for people who have very little experience with Node projects and will aim to teach the little intricacies for beginners.
 
 ## Contents
-- [1. Prerequisites](./Prerequisites/README.md)
+- [1. Prerequisites](./Prerequisites)
   - [1.1. OS Bedrock]()
     - [Windows]()
     - [MacOS]()
