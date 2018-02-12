@@ -14,7 +14,7 @@ Now that your enviroment is all set up and you know the command line fundamental
   - [Standard]()
   - [Airbnb]()
   - [Style Guide Tools]()
-- [2.5 ES2015/ES2016/ES2017](#es2015es026es2017)
+- [2.5 ES2015/ES2016/ES2017](#es2015es2016es2017)
 
 
 # Intro
