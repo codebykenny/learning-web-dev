@@ -1,9 +1,13 @@
-# Javascript Guides
+# Javascript
 Now that your enviroment is all set up and you know the command line fundamentals, we can begin to learn how to code!
+
+<div>
+  <a href="../">:arrow_left: Back to Main Menu</a>
+</div>
 
 # Contents 
 - [2.1 Basics](#basics)
-- [2.2 Intermediate]()
+- [2.2 Intermediate](#intermediate)
 - [2.3 Editor](#editor)
 - [2.4 Style Guides](#style-guides)
   - [Standard]()
@@ -12,7 +16,7 @@ Now that your enviroment is all set up and you know the command line fundamental
 - [2.5 ES2015/ES2016/ES2017...]()
 
 
-# Javascript
+# Intro
 <img src="./images/top-languages.png" width="500px" align="right">
 
 Javascript is one of the worlds most popular programming languages, and the shear number of developers Javascript effects is astonishing.

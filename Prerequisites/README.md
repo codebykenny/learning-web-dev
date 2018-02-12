@@ -12,7 +12,7 @@ Lets begin by setting the foundation for your future projects. We are going to s
 
 # 1.1 OS Bedrock
 <div align="left">
-<sup><a href="#top">↥ back to top</a></sup>
+<sup><a href="#contents">↥ back to top</a></sup>
 <div><br>
 
 Lets get your operating system ready for development.
@@ -126,7 +126,7 @@ Linux systems are usually ready for developers right out of the box. Skip ahead 
 
 # 1.2 Command Line
 <div align="left">
-<sup><a href="#top">↥ back to top</a></sup>
+<sup><a href="#contents">↥ back to top</a></sup>
 <div><br>
 Let's finish up on the command line.
 
