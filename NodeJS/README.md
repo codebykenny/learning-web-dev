@@ -154,7 +154,7 @@ This is the very basic structure of every application. All Node apps require the
 
 Alright alright alright.... lets make your firsy NodeJS app!
 
-<br>
+## app.js
 
 Open up `app.js` using your editor of choice.
 
@@ -178,23 +178,60 @@ node app.js
 You should see:
 
 <div>
-  <img src="./images/app-1.png" align="center" width"500px">
+  <img src="./images/app-1.png" align="center" width"400px">
 </div>
 
+
+Nice! You just ran your very first node application and it did something useful, it told you the current date and time.
+
+## NPM Install
+
+So remember how we said a node app is simply a package compromised of other packages?
 
 Lets see an example of how you can use someone elses Package inside of your package:
 
 ``` javascript
-// This is your application file (app.js)
+let today = new Date();
+let chalk = require('chalk'); // This is a package named Chalk created by a user. It lets you write messages in different colors.
 
-const chalk = require('chalk');  // This is a package named Chalk created by a user. It lets you write messages in different colors.
-
-console.log(chalk.blue('Hello world!')); // This will write the words "Hello World!" in blue text
+console.log(chalk.blue("Hello World! The date is: " + today));
 
 ```
 > In this simple application we wrote our own app that uses a package from another user called "chalk".
 >
 > We simply displayed a blue message that says "Hello World"
+
+Now lets run it again:
+
+```
+node app.js
+```
+
+Boom! Your first NodeJS Error! At first it may seem that errors are your sworn enemy. But they're not!
+
+**Errors are your friends! Errors are _extremely_ useful in telling your what went wrong!**
+
+Once you learn to read errors, they becoming **incredibly** easy to fix!
+
+Lets read this first error:
+
+```
+Error: Cannot find module 'chalk'
+    at Function.Module._resolveFilename (module.js:489:15)
+    at Function.Module._load (module.js:439:25)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/kenneth/Coding/first-node-app/app.js:2:13)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+```
+
+The most important line there is the very first line, every other line is just debugging information we usually do not need.
+
+`Error: Cannot find module 'chalk'` is actually quite easy to understand. Its telling us that we used the package "chalk" but it has aboslutely **_no_** idea what the heck chalk is.
 
 Awesome!
 
