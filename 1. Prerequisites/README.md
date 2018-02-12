@@ -145,9 +145,7 @@ sudo pacman -Sy base-devel
 >
 >The command line is, at its heart, simply a place where you type commands to the computer. The computer is your obedient servant, and will attempt to carry out any command that it understands. Unfortunately, the computer does not speak English, or any other language spoken by humans (although it has recognizable elements). In order to give it commands, we must first start learning the language of the computer.
 
-Its imperative that you as a developer become extremely familiar with your Command Line(Terminal). Your command line is your window into your entire computer. It is how you communicate with your computer and its just as important as your monitor and keyboard. Your command line is one of the best tools at your disposal and becoming efficient with it, will grant your superpower-like skills that will let you complete things much, much faster than any other way.
+Its imperative that you as a developer become extremely familiar with your Command Line(Terminal). Please take the time to go through this section and at the very least learn the fundamentals of the command-line
 
-Here are a list of tutorials/good reads that I recommend to learn the command line.
-
-These are in order of what I deem to be best on top:
+Here are a list of tutorials/good reads that I recommend to learn the command line, these are in order of what I deem to be best on top:
 - [Getting to Know the Command Line - davidbaumgold](https://www.davidbaumgold.com/tutorials/command-line/#command-syntax)
