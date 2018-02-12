@@ -3,7 +3,7 @@ Lets begin by setting the foundation for your future projects. We are going to s
 
 <br>
 <div>
-  <a href="../README.md">:arrow_left: Back to Main Menu</a>
+  <a href="../README.md#contents">:arrow_left: Back to Main Menu</a>
 </div>
 
 # Contents 

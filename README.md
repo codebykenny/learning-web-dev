@@ -4,7 +4,7 @@ This is an opinionated approach to learning how to get started with NodeJS and W
 This guide is intended for people who have very little experience with Node projects and will aim to teach the little intricacies for beginners.
 
 ## Contents
-- [1. Prerequisites](./Prerequisites)
+- [1. Prerequisites](./Prerequisites#11-prerequisites)
   - [1.1. OS Bedrock](./Prerequisites#11-os-bedrock)
     - [Windows](./Prerequisites#windows)
     - [MacOS](./Prerequisites#macos)
@@ -12,12 +12,12 @@ This guide is intended for people who have very little experience with Node proj
   - [1.2 Command Line](./Prerequisites#12-command-line)
     - [Installing Dependencies](./Prerequisites#12-command-line)
     - [Fundamentals](./Prerequisites#fundamentals)
-- [2. Javascript](./Javascript)
+- [2. Javascript](./Javascript#javascript)
   - [2.1. Basics](./Javascript)
   - [2.2. Intermediate](./Javascript)
   - [2.3. Style Guides](./Javascript)
   - [2.4. ES2015/ES2016/ES2017...](./Javascript)
-- [3. NodeJS]()
+- [3. NodeJS](./NodeJS)
   - [3.2. Installation & NVM]()
     - [Installing NVM]()
     - [Installing Node]()

@@ -3,7 +3,7 @@ Now that your enviroment is all set up and you know the command line fundamental
 
 <br>
 <div>
-  <a href="../README.md">:arrow_left: Back to Main Menu</a>
+  <a href="../README.md#contents">:arrow_left: Back to Main Menu</a>
 </div>
 
 # Contents 
