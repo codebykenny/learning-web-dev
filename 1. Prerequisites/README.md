@@ -13,11 +13,11 @@ Lets begin by setting the foundation for your future projects. We are going to s
 # 1.1 OS Bedrock
 Lets get your operating system ready for development.
 
-<div align="right">
-  <sup><a href="#----">:arrow_up: back to top</a></sup>
-</div>
 
 # Windows
+<div align="right">
+  <sup><a href="#----">↥ back to top</a></sup>
+</div>
 
 > Windows 10 finally bridged the gap for developers and introduced a subfile system called "Linux on Windows" so you can finally use the Terminal/Bash on your Windows PC.
 >
