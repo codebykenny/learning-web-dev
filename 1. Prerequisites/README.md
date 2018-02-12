@@ -118,7 +118,7 @@ Linux systems are usually ready for developers right out of the box. Skip ahead 
 # 1.2 Command Line
 
 # Installing Dependencies
-> For Windows/Linux users only
+##For Windows/Linux users only
 
 Depending on what Linux Distro you have, you have a package manager.
 
@@ -126,21 +126,21 @@ Open up your Terminal or Bash(Windows)
 
 To install the Developer Dependencies please run the command that corresponds to your distro:
 
-## Ubuntu/Debian
+### Ubuntu/Debian
 ``` bash
 sudo apt-get update
 
 sudo apt-get install build-essential
 ```
 
-## Fedora/CentOS/RHEL
+### Fedora/CentOS/RHEL
 ``` bash
 sudo yum update
 
 sudo yum groupinstall "Development Tools" "Legacy Software Development"
 ```
 
-## Arch Linux
+### Arch Linux
 ``` bash
 sudo pacman -Sy base-devel
 ```
