@@ -27,6 +27,10 @@ Being able to understand, read and write Javascript is a very rewarding skill to
 In it's core, Javascript is an object-oriented programming languages and very similar to other languages in the same category such as Python, Swift and Ruby. Javascript is the language while *Node.JS* is the enviroment that lets Javascript run on a server instead of a webbrowser. 
 
 # Basics
+<div align="left">
+<sup><a href="#contents">↥ back to top</a></sup>
+<div><br>
+
 If you understand Javascript and can read and write it comfortably, you may skip to the next section: [Editor](#editor)
 
 <br><div align="center">
@@ -64,6 +68,9 @@ Other Javascript tutorials:
 # Intermediate
   > TODO
 # Editor
+<div align="left">
+<sup><a href="#contents">↥ back to top</a></sup>
+<div><br>
 
 <img src="./images/editor.png" alt="Microsoft VS Code" align="right" width="500px">
 
