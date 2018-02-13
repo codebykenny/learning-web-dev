@@ -11,6 +11,9 @@ In this section we will go over the fundementals of webserver communication with
 - [4.3 Responses]()
 
 # Communication
+<div align="left">
+<sup><a href="#contents">↥ back to top</a></sup>
+<div><br>
 
 I have often thought about what is the most simplistic way of describing the communication between a browser and a web server. When you want to start web development, this is obviously a fundamental aspect of web dev you need to grasp, how your server and the user's client interact with one another.
 
@@ -27,6 +30,9 @@ A webservers sole purpose is to accept and read every single request, and issue 
 Lets break down how **Requests** and **Responses** are structured.
 
 # Requests
+<div align="left">
+<sup><a href="#contents">↥ back to top</a></sup>
+<div><br>
 
 To understand **Requests** it helps by simply looking at one in action. Lets try doing a search on a classified website such as craigslist. When we do a search for an item, lets say `"Honda Accord"` the website sends a **Request** to a webserver asking it for classifieds that include `"Honda Accord"`.
 
@@ -60,13 +66,16 @@ https://miami.craigslist.org/search?query=honda+accord
 
 So to summarize: We are sending a request to the webserver on `miami.craigslist.org`, telling the webserver we want to do a `/search/` using the `?query`: `Honda Accord`.
 
-This requests tells the webserver everything it needs to know to properly respond to it.
+This **Request** tells the webserver everything it needs to know to properly respond to it.
 
 Now the webserver is in charge to making a proper response back, so lets take a look at what a proper response from the server looks like.
 
 # Response
+<div align="left">
+<sup><a href="#contents">↥ back to top</a></sup>
+<div><br>
 
-The response for a webserver can be just about **_any_** type of resource, it could be `data` for a search, an `image` or `document`. It could also be the `HTML` on the page.
+The **Response** for a webserver can be just about *any* type of resource, it could be `data` for a search, an `image` or `document`. It could also be the `HTML` on the page.
 
 When creating a website, it's important that the webclient get's the expected information from the Webserver. If the browser is asking for an `image`, and the webserver responds with `html`, then the client will *not* know how to handle that because it wasnt expecting it.
 
@@ -77,4 +86,17 @@ For our craigslist example, the response was simply the search results page show
 <div align="center">
     <img src="./images/response-1.png" height="300px">
     <img src="./images/response-2.png" height="300px">
+</div>
+
+In the following sections of this entire guide, we will go in depth on how to handle these requests.
+
+Furthermore, I will give you a simple architecture on how you can setup your web server and have consitent structure in your responses.
+
+<br>
+<div>
+  <a href="#contents">:arrow_up: Back to Top</a>
+</div>
+<br>
+<div>
+  <a href="../README.md#contents">:arrow_left: Back to Main Menu</a>
 </div>
