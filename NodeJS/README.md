@@ -67,6 +67,9 @@ nvm install node
 This will download, compile and install the latest version of node!
 
 # NPM & Packages
+<div align="left">
+<sup><a href="#contents">↥ back to top</a></sup>
+<div><br>
 
 We should now have a working copy of Node on our system and can proceed to learn about packages.
 
@@ -83,6 +86,9 @@ When you write your very own NodeJS application, 100% of the time you will use p
 We will take a further look into packages in the next section as we create our first NodeJS app.
 
 # Initiating Project
+<div align="left">
+<sup><a href="#contents">↥ back to top</a></sup>
+<div><br>
 
 Lets create our first NodeJS app.
 
@@ -139,6 +145,9 @@ The `node_modules` folder is where all the packages you use will be installed to
 This is the very basic structure of every application. All Node apps require these 3 fundamental things.
 
 # Hello World App
+<div align="left">
+<sup><a href="#contents">↥ back to top</a></sup>
+<div><br>
 
 Alright alright alright.... lets make your firsy NodeJS app!
 
@@ -262,6 +271,9 @@ You should see:
 </div>
 
 # Package.json
+<div align="left">
+<sup><a href="#contents">↥ back to top</a></sup>
+<div><br>
 
 So far we have: 
   1. Initiated our first NPM Package
@@ -300,6 +312,9 @@ Now every time we run `npm install` it will automatically install all of the pac
 Another important part of this file is the `scripts` section. This is really useful later on when you want to run different scripts in this repository.
 
 # Wrap up
+<div align="left">
+<sup><a href="#contents">↥ back to top</a></sup>
+<div><br>
 
 Now you understand the fundamental aspects of a NodeJS application.
 

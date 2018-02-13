@@ -87,6 +87,9 @@ Here is a list of editors starting with my favorites towards the top.
 - [Sublime Text](https://www.sublimetext.com/)
 
 # Style Guides
+<div align="left">
+<sup><a href="#contents">↥ back to top</a></sup>
+<div><br>
 
 As you start to write your code, it's very easy to be inconsistent in the way you write it.
 
@@ -115,6 +118,9 @@ Take a look at these style guides and learn the proper way of writing your Javas
 
 
 ## Style Guide Tools
+<div align="left">
+<sup><a href="#contents">↥ back to top</a></sup>
+<div><br>
 After you have decided on which style to go with, you can look for tools to help you enforce the style.
 
 Most modern editors have addons that help you enforce specific style guides.
