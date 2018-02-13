@@ -174,9 +174,9 @@ sudo pacman -Sy base-devel
 Its imperative that you as a developer become extremely familiar with your Command Line(Terminal). Please take the time to go through this section and at the very least learn the fundamentals of the command-line
 
 Here are a list of tutorials/good reads that I recommend to learn the command line, these are in order of what I deem to be best on top:
+- [Beginner's Guide to the Bash Terminal - joe collins - \(YouTube 1:14hr\)](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
 - [Getting to Know the Command Line - davidbaumgold](https://www.davidbaumgold.com/tutorials/command-line/#command-syntax)
 - [Command Line Basics - teamtreehouse](http://blog.teamtreehouse.com/command-line-basics)
-- [Beginner's Guide to the Bash Terminal - joe collins - \(YouTube 1:14hr\)](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
 
 <br>
 <div>
