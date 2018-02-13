@@ -21,7 +21,7 @@ Lets start making your own NodeJS Apps!
 
 # Installing Node & NVM
 
-**NVM** (_Node Version Manager_) is a handy tool that lets you manage multiple(or just one) version of node on yoru system. It's the easiest way to get Node installed.
+**NVM** (_Node Version Manager_) is a handy tool that lets you manage multiple(or just one) version of node on your system. It's the easiest way to get Node installed.
 
 
 ## Install NVM
