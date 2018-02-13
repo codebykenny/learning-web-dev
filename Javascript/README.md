@@ -125,7 +125,7 @@ After you have decided on which style to go with, you can look for tools to help
 
 Most modern editors have addons that help you enforce specific style guides.
 
-You can search for the addon directly in yoru editors package manager, for now I will list a link to the VS Code packages
+You can search for the addon directly in your editors package manager, for now I will list a link to the VS Code packages
 
 - [Standard](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs)
 - [ESLint (good for Airbnb style)](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
