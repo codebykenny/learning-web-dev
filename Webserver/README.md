@@ -9,6 +9,7 @@ In this section we will go over the fundementals of webserver communication with
 <div>
   <a href="../README.md#contents">:arrow_left: Back to Main Menu</a>
 </div>
+<br>
 
 - [4.1 Communication](#communication)
 - [4.2 Requests](#requests)
