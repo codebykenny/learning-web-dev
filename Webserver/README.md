@@ -96,9 +96,14 @@ For our craigslist example, the response was simply the search results page show
 
 <br>
 
-In the following sections of this entire guide, we will go in depth on how to handle these requests.
+# Recap
+Just to recap, communication between web servers and web browsers is pretty simple when you think of it as a 2 step communication.
 
-Furthermore, I will give you a simple architecture on how you can setup your web server and have consitent structure in your responses.
+`Front-end` developling involves sending requests and making sense of the data.
+
+`Back-end` developling involves receiving requests and sending data back.
+
+In the following sections of this entire guide, we will go in depth on how to handle these requests. Furthermore, I will give you a simple architecture on how you can setup your web server and have consitent structure in your responses.
 
 <br>
 <div>
