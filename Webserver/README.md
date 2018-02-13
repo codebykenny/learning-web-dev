@@ -66,7 +66,7 @@ Now the webserver is in charge to making a proper response back, so lets take a 
 
 # Response
 
-The response for a webserver can be just about *any* type of resource, it could be `data` for a search, an `image` or `document`. It could also be the `HTML` on the page.
+The response for a webserver can be just about **_any_** type of resource, it could be `data` for a search, an `image` or `document`. It could also be the `HTML` on the page.
 
 When creating a website, it's important that the webclient get's the expected information from the Webserver. If the browser is asking for an `image`, and the webserver responds with `html`, then the client will *not* know how to handle that because it wasnt expecting it.
 
