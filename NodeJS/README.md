@@ -81,7 +81,7 @@ The beauty of NodeJS is: there are thousands and thousands of open-sourced packa
 
 When you write your very own NodeJS application, 100% of the time you will use packages from other users all over the world. All the *hard* parts of coding, have usually already been taken care of by other users and you can simply add a package to your application to take advantage of that.
 
-> The takeaway here is: your app is a application(package) comprised of other packages from other users.
+> The takeaway here is: your app is an application (package) comprised of other packages from other users.
 
 We will take a further look into packages in the next section as we create our first NodeJS app.
 
