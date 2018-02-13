@@ -91,6 +91,7 @@ For our craigslist example, the response was simply the search results page show
 <div align="center">
     <img src="./images/response-1.png" height="300px">
     <img src="./images/response-2.png" height="300px">
+    <blockquote>The Response Headers shown in the first picture describes the actual response data. In this case the response was HTML of the search results page.</blockquote>
 </div>
 
 <br>
