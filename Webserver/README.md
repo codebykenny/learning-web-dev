@@ -4,7 +4,11 @@ Before we begin writing our own NodeJS webserver, we need to understand  what a 
 
 In this section we will go over the fundementals of webserver communication with a browser.
 
+
 # Contents
+<div>
+  <a href="../README.md#contents">:arrow_left: Back to Main Menu</a>
+</div>
 
 - [4.1 Communication](#communication)
 - [4.2 Requests](#requests)
@@ -87,6 +91,8 @@ For our craigslist example, the response was simply the search results page show
     <img src="./images/response-1.png" height="300px">
     <img src="./images/response-2.png" height="300px">
 </div>
+
+<br>
 
 In the following sections of this entire guide, we will go in depth on how to handle these requests.
 
