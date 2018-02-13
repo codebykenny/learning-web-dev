@@ -33,7 +33,7 @@ To understand **Requests** it helps by simply looking at one in action. Lets try
 Using the [Chrome Dev Tools](https://developer.chrome.com/devtools) we can monitor the Network activity and see the **Request**.
 
 <div align="center">
-    <img src="./images/craigslist_request_simple.png" width="500px">
+    <img src="./images/craigslist_request_simple.png" width="600px">
 </div>
 
 The most important part of a request is a URL, in fact in most cases a request can contain no data other than the data on the URL. The URL of the request contains the address of the webserver you're sending it to, as well as the specific data you want from it.
@@ -42,13 +42,13 @@ Let's break down the URL in this example:
 
 
 ```
-https://miami.craigslist.org/search/bbb?query=honda+accord
+https://miami.craigslist.org/search?query=honda+accord
 
 
- https      miami.craigslist.org      /search/bbb      ?query=honda+accord
-   |                  |                    |                    |
-   |                  |                    |                    |
- schema              host                 path           query parameters
+ https      miami.craigslist.org      /search      ?query=honda+accord
+   |                  |                  |                    |
+   |                  |                  |                    |
+ schema              host               path           query parameters
 ```
 
 | Section | Description |
@@ -57,3 +57,24 @@ https://miami.craigslist.org/search/bbb?query=honda+accord
 | host | This is the address for the webserver, where we are sending this request to. Usually a domain name, but can simply be an IP Address |
 | path | This tells the host the specific resource we want from it, in this case we want to do a search |
 | query parameters | This gives additional information for the resource we are requesting, in this case the search term  `Honda Accord` |
+
+So to summarize: We are sending a request to the webserver on `miami.craigslist.org`, telling the webserver we want to do a `/search/` using the `?query`: `Honda Accord`.
+
+This requests tells the webserver everything it needs to know to properly respond to it. This request object is telling the webserver what it needs.
+
+Now the webserver is in charge to making a proper response back, so lets take a look at what a proper response from the server looks like.
+
+# Response
+
+The response for a webserver can be just about any type of resource, it could be data for a search, an image or document. It could also be the HTML on the page.
+
+When creating a website, it's important that the webclient get's the expected information from the Webserver. If the browser is asking for an image, and the webserver responds with html, then the client will not know how to handle that because it wasnt expecting it.
+
+Webservers should be consistent in the way they respond with data. There should be uniform structure accross all `paths`, and ultimately it is up to the architecture of the webserver how it expects to receive requests.
+
+For our craigslist example, the response was simply the search results page showing all listings for `"Honda Accrod"`.
+
+<div align="center">
+    <img src="./images/response-1.png" height="300px">
+    <img src="./images/response-2.png" height="300px">
+</div>
