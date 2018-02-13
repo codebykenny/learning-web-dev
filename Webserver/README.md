@@ -60,15 +60,15 @@ https://miami.craigslist.org/search?query=honda+accord
 
 So to summarize: We are sending a request to the webserver on `miami.craigslist.org`, telling the webserver we want to do a `/search/` using the `?query`: `Honda Accord`.
 
-This requests tells the webserver everything it needs to know to properly respond to it. This request object is telling the webserver what it needs.
+This requests tells the webserver everything it needs to know to properly respond to it.
 
 Now the webserver is in charge to making a proper response back, so lets take a look at what a proper response from the server looks like.
 
 # Response
 
-The response for a webserver can be just about any type of resource, it could be data for a search, an image or document. It could also be the HTML on the page.
+The response for a webserver can be just about *any* type of resource, it could be `data` for a search, an `image` or `document`. It could also be the `HTML` on the page.
 
-When creating a website, it's important that the webclient get's the expected information from the Webserver. If the browser is asking for an image, and the webserver responds with html, then the client will not know how to handle that because it wasnt expecting it.
+When creating a website, it's important that the webclient get's the expected information from the Webserver. If the browser is asking for an `image`, and the webserver responds with `html`, then the client will *not* know how to handle that because it wasnt expecting it.
 
 Webservers should be consistent in the way they respond with data. There should be uniform structure accross all `paths`, and ultimately it is up to the architecture of the webserver how it expects to receive requests.
 
