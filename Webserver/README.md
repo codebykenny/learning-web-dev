@@ -28,6 +28,8 @@ Without getting into Domain Name Systems.. I believe the best way to think of co
     <img src="./images/request_response.png" width="500px">
 </div>
 
+<br>
+
 The first thing a web browser (client) does when it visits a homepage is it **Requests** a webserver for all of the information. It requests for the content of the webpage, the styles, the javascript, the images and documents. It sends a request for everything you see on a website.
 
 A webservers sole purpose is to accept and read every single request, and issue an appropriate **Response** to the client for each **Request**. When creating a webserver you have to set rules in place so that you can appropriately handle any request sent it's way.
