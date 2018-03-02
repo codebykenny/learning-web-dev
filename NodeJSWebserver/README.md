@@ -56,15 +56,15 @@ Go through NPM init with the default settings (you can simply press Enter on eac
 Now open up `server.js` in your editer of choice and lets create the most simple HTTP server possible..
 
 ``` javascript
-let http = require('http');
+let http = require('http')
 
 http.createServer(function (request, response) {
-  response.writeHead(200, {'Content-Type': 'text/plain'});
-  response.write('Hello World!');
-  response.end();
-}).listen(8080);
+  response.writeHead(200, {'Content-Type': 'text/plain'})
+  response.write('Hello World!')
+  response.end()
+}).listen(8080)
 
-console.log('Running server on http://localhost:8080');
+console.log('Running server on http://localhost:8080')
 ```
 
 Here we are using the native HTTP package that comes with node.
@@ -93,20 +93,20 @@ The response here can be anything you like, for instance you can send the browse
 
 ``` javascript
 http.createServer(function (request, response) {
-  response.writeHead(200, {'Content-Type': 'text/html'});
+  response.writeHead(200, {'Content-Type': 'text/html'})
   response.write(`
     <h1>Hello</h1>
     <h3>This should be rendered as HTML</h3>
   `);
-  response.end();
-}).listen(8080);
+  response.end()
+}).listen(8080)
 ```
 
 You can even send an entire webpage to the browser.
 
 ``` javascript 
 http.createServer(function (request, response) {
-  response.writeHead(200, {'Content-Type': 'text/html'});
+  response.writeHead(200, {'Content-Type': 'text/html'})
   response.write(`
     <!DOCTYPE html>
     <html lang="en">
@@ -127,8 +127,9 @@ http.createServer(function (request, response) {
     </body>
     </html>
   `);
-  response.end();
-}).listen(8080);
+
+  response.end()
+}).listen(8080)
 ```
 
 This example is great to demonstrate communicating back and forth to the browser, however as you probably have realized by now it's not very organized.
@@ -149,7 +150,7 @@ Some of the most popular are:
 
 # Router
 
-In this tutorial we are going to continue with the [Koa](https://github.com/koajs/koa) HTTP framework, the way we organize and set up our servers can really be done with just about any HTTP framework you choose. Each have their own quirks but they essentially function the same way and have the same features for the most part.
+In this tutorial we are going to continue with the [__Express__](https://github.com/expressjs/express) HTTP framework, the way we organize and set up our servers can really be done with just about any HTTP framework you choose. Each have their own quirks but they essentially function the same way and have the same features for the most part.
 
 A `router` in an HTTP Web Server is in charge of routing the request to the correct section of the code. When you have hundreds of different requests coming in you have to make sure that each request gets sent to the correct piece of code to run. 
 
@@ -158,9 +159,95 @@ A `router` uses nothing else except URL of the request to determine where the re
 How you create the rules for the `router` could be subjective, in this tutorial I will show you a method that has worked well for me in the past.
 
 ```
-https://www.yourwebsite.com/login
+https://www.yourwebsite.com/login/submit
 
-www.yourwebsite.com        /login
-         |                    
-       Server
+www.yourwebsite.com        /login            /submit
+         |                    |                 |
+         v                    v                 v
+       Server             Controller          Action
 ```
+
+The way we setup up our `routes` are in terms of `Controllers` and `Actions`.
+
+The example above is the `/login/submit` route, this route will be executed in the `Login Controller` and inside that controller it will call the `Submit Action`
+
+Lets setup an example to see this in action using [__Express__](https://github.com/expressjs/express)
+
+## Route Example
+
+Lets begin by setting up Koa..
+
+``` javascript
+let express = require('express')
+let app = express()
+
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+
+app.listen(8080)
+
+console.log('Running server on http://localhost:8080')
+```
+
+The above example is the same simple HTTP server we did, just written in express..
+
+Lets add the handling of a route with a controller.
+
+``` javascript
+let express = require('express')
+let app = express()
+
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+
+app.get('/homepage', function (req, res) {
+  res.send('<h1>This is the Homepage</h1>')
+})
+
+app.listen(8080)
+
+console.log('Running server on http://localhost:8080')
+```
+
+Now if we run `node server.js` with the above code and we visit `localhost:8080/homepage` we will successfully get a response and a URL with the `/homepage` controller will be properly handled.
+
+Having all of our routes in a single file like this and creating them one by one can be daunting, and quite frankly unnecessary. Instead, we can handle these in a generic way..
+
+``` javascript
+let express = require('express')
+let app = express()
+
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+
+app.get('/:controller', function (req, res) {
+  let controller = req.params.controller;
+
+  res.send(`You are looking for the ${controller} controller.`)
+})
+
+app.listen(8080)
+
+console.log('Running server on http://localhost:8080')
+```
+
+Now if we visit `localhost:8080/homepage` we get the following:
+
+<div align="center">
+  <img src="./images/hello_world.png" width="500px"/>
+</div>
+
+If instead we visit `localhost:8080/about` we get the following: 
+
+<div align="center">
+  <img src="./images/hello_world.png" width="500px"/>
+</div>
+
+We are not dynamically handling the `Controller` portion of the routing, great.
+
+We have the `Controller` from the route, next step is to direct that `Controller` to the right piece of code.
+
+My preferred way of doing this is by seperating each Controller into it's own seperate file. This helps keep our code organized.
